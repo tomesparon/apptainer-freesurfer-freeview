@@ -6,7 +6,8 @@ From: freesurfer/freesurfer:7.4.1
 
 %setup
         cat <<END >${APPTAINER_ROOTFS}/usr/local/freesurfer/.license
-<<<INSERT PASTE LICENCE HERE >>>
+<<<CUT AND PASTE LICENSE HERE>>>
+END
 %post
     cat <<EOF > /etc/yum.repos.d/CentOS-Base.repo
 [baseos]
